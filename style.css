@@ -305,10 +305,12 @@ section {
 }
 
 .details-container p {
+  justify-content: left;
   text-align: left; /* Left-align paragraphs */
 }
 
 .section-container {
+  margin-top: 10rem;
   gap: 4rem;
   height: 80%;
 }
@@ -323,7 +325,7 @@ section {
 
 #experience {
   position: relative;
-  margin-top: 7rem;
+  margin-top: 15rem;
 }
 
 .experience-sub-title {
