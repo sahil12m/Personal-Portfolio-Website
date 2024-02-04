@@ -7,7 +7,7 @@
     flex-wrap: wrap;
   }
 
-  #experience,
+  /* #experience,
   .experience-details-container {
     margin-top: 2rem;
   }
@@ -32,7 +32,7 @@
   }
   .about-containers {
     margin-top: 0;
-  }
+  } */
 
   #contact,
   #projects {
@@ -50,7 +50,7 @@
     flex-wrap: wrap;
   }
 
-  #experience,
+  /* #experience,
   .experience-details-container {
     margin-top: 2rem;
   }
@@ -75,7 +75,7 @@
   }
   .about-containers {
     margin-top: 0;
-  }
+  } */
 
   #contact,
   #projects {

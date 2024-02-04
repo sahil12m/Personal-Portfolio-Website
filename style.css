@@ -310,7 +310,7 @@ section {
 }
 
 .section-container {
-  margin-top: 10rem;
+  /* margin-top: 10rem; */
   gap: 4rem;
   height: 80%;
 }
