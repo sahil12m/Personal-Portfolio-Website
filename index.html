@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Sahil Mondal</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Sahil Mondal</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.png" alt="Sahil Mondal profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Sahil Mondal</h1>
+      <p class="section__text__p2">USC CS Grad</p>
+      <p class="section__text__p2">AI/ML Enthusiast & Software Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Sahil_Mondal_Resume.pdf')">
+          Download Resume
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <a href="https://www.linkedin.com/in/sahil-mondal/" target="_blank">
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" />
+        </a>
+        <a href="https://github.com/sahil12m" target="_blank">
+          <img src="./assets/github.png" alt="My Github profile" class="icon" />
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/about-pic3.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <br>
+            <p>&#8226;<strong>USC ICT(May - Dec 2023)</strong></p>
+            <p>Worked on 3D terrain reconstruction with Neural radiance field (NeRF) models.
+            </p>
+            <br>
+            <p>&#8226;<strong>Quidich Innovation Labs(Feb - July 2022)</strong></p>
+            <p>Worked on real-time object tracking and face-recognition for sports using YOLO models and software
+              programming.
+            </p>
+            <br>
+            <p>&#8226;<strong>Canspirit AI(Mar - Jun 2021)</strong></p>
+            <p>Worked on text-extraction from documents using OCR and NLP techniques.
+            </p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <br>
+            <p>&#8226; <strong>Master's of Science in Computer Science</strong></p>
+            <p>University of Southern California(GPA: 3.5)</p>
+            <p>Aug 2022 - May 2024</p>
+            <br><br><br><br>
+            <p>&#8226; <strong>Bachelor of Technology in Computer Science</strong></p>
+            <p>Dr. Vishwanath Karad MITWPU(GPA: 9.74)</p>
+            <p>July 2018 - June 2022</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I would describe myself as a results-focused, analytical and innovative problem solver who takes pride in my
+            work and has the knowledge and expertise to match tasks at hand. I have a background in tech in the field of
+            AI and software engineering with just over a year of experience in various internships. In addition to
+            having
+            excellent technical problem-solving capabilities, my communication skills allows me to relay complex
+            information and enables me to thrive in collaborative environments where
+            successful teamwork and smooth exchange of ideas are crucial.
+            The unique blend of technical expertise, innovative mindset, and collaborative approach establishes me as an
+            outstanding candidate within the field of computer science.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Programming Languages</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C/C++</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Java</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Typescript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>PERL</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C#</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frameworks, Softwares and Technologies</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Tensorflow</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Pytorch</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>React JS</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Node JS</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Flask</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MySQL</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>OpenCV</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MongoDB</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Docker</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>GCP</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>AWS</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MATLAB</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Tableau</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Power BI</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img class="project-img" src="./assets/project-1.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Counter COVID-19 Solutions</h2>
+          <h5> A computer vision based covid-19 prevention project</h5>
+          <br>
+          <h5>Tech Stack: Python, OpenCV, Tensorflow, MobileNetV2, YoloV3</h5>
+          <br>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sahil12m/COVID-Combat'">
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img class="project-img" src="./assets/project-2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Yelp Business Fetch Website and App</h2>
+          <h5>The project includes a responsive ReactJS website and an android app</h5>
+          <br>
+          <h5>Tech Stack: React Js, Node JS, HTML, CSS, Bootstrap, Javascript, Android, Java, AJAX, JSON, GCP,
+            XML</h5>
+          <br>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sahil12m/Yelp-Business-Website'">
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img class="project-img" src="./assets/project-3.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Twitter Sentiment Analysis</h2>
+          <h5>The project includes a live dashboard for analyzing sentiments of tweets in real-time</h5>
+          <br>
+          <h5>Tech Stack: Python, JSON, VADER Sentiment, Dash, Sqlite3, Plotly</h5>
+          <br>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sahil12m/Twitter-Sentiment-Analysis-Live-Dashboard-'">
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img class="project-img" src="./assets/project-4.png" alt="Project 4" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Autonomous Driving Vehicle</h2>
+          <h5>The project includes a self-driving vehicle prototype using realtime computer vision integrated with
+            hardware</h5>
+          <br>
+          <h5>Tech Stack: Python, Keras, OpenCV, Tensorflow, Donkeycar, Computer Hardware</h5>
+          <br>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sahil12m/Autonomous_Driving_Vehicle'">
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img class="project-img" src="./assets/project-5.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Little Go: Creating AI Agents</h2>
+          <h5>The project includes building an intelligent AI agent to play the game of GO</h5>
+          <br>
+          <h5>Tech Stack: Python, Reinforcement Learning</h5>
+          <br>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sahil12m/Mini-Go-AI-Agent'">
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img class="project-img" src="./assets/project-6.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">
+            E-Shopping Electronics Website</h2>
+          <h5>The project includes building a responsive website with SQL database integrated</h5>
+          <br>
+          <h5>Tech Stack: HTML, CSS, BootStrap, SQL, Javascript, Python, Flask</h5>
+          <br>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sahil12m/E-shopping-online-website'">
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img class="project-img" src="./assets/project-7.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">NeuraNer: Deep Learning for Named Entity Recognition</h2>
+          <h5>The project includes building a deep learning network for the task of NER</h5>
+          <br>
+          <h5>Tech Stack: Python, Deep Learning Networks(BiLSTM), Glove Embeddings</h5>
+          <br>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sahil12m/Named-Entity-Recognition_using_DeepLearning'">
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:examplemail@gmail.com">sahilmondal@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/sahil-mondal/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; Sahil Mondal. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
