@@ -1,50 +1,36 @@
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1800px) {
   #profile {
     height: 83vh;
-    margin-bottom: 6rem;
+    /* margin-bottom: 6rem; */
   }
   .about-containers {
     flex-wrap: wrap;
   }
 
-  /* #experience,
-  .experience-details-container {
-    margin-top: 2rem;
-  }
-  #profile,
-  .section-container {
-    display: block;
-  }
-  .arrow {
-    display: none;
-  }
   section,
   .section-container {
     height: fit-content;
   }
-  section {
-    margin: 0 5%;
-  }
-  .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
-  }
-  .about-containers {
-    margin-top: 0;
-  } */
 
   #contact,
+  #experience,
+  #about,
   #projects {
     height: fit-content;
+    margin-top: 5rem;
   }
+
+  #contact{
+    margin-top: 20rem;
+  }
+
 }
 
 
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
-    margin-bottom: 6rem;
+    /* margin-bottom: 6rem; */
   }
   .about-containers {
     flex-wrap: wrap;
@@ -60,26 +46,29 @@
   }
   .arrow {
     display: none;
-  }
+  }  */
   section,
   .section-container {
     height: fit-content;
   }
-  section {
+  /* section {
     margin: 0 5%;
-  }
+  }  */
   .section__pic-container {
     width: 275px;
     height: 275px;
-    margin: 0 auto 2rem;
+    /* margin: 0 auto 2rem; */
   }
-  .about-containers {
+  /* .about-containers {
     margin-top: 0;
   } */
 
   #contact,
+  #experience,
+  #about,
   #projects {
     height: fit-content;
+    margin-top: 3rem;
   }
 }
 

@@ -265,7 +265,7 @@ section {
 
 #about {
   position: relative;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
 }
 
 .about-containers {
@@ -304,10 +304,10 @@ section {
   text-align: center;
 }
 
-.details-container p {
+/* .details-container p {
   justify-content: left;
-  text-align: left; /* Left-align paragraphs */
-}
+  text-align: left; 
+} */
 
 .section-container {
   /* margin-top: 10rem; */
@@ -325,7 +325,7 @@ section {
 
 #experience {
   position: relative;
-  margin-top: 15rem;
+  /* margin-top: 15rem; */
 }
 
 .experience-sub-title {
@@ -364,6 +364,7 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
+  /* margin-top: 15rem; */
   position: relative;
 }
 
@@ -400,7 +401,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  margin-top: 40rem;
+  /* margin-top: 40rem; */
 }
 
 .contact-info-upper-container {
